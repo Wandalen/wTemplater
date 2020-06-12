@@ -3,8 +3,8 @@ root:
   - wTemplater.out
 consistency:
   ../.ex.will.yml: &ref_0
-    hash: 5d77a9ea8e1c8e339cb89a69ad65b1ae
-    size: 1672
+    hash: 5e4cb59d78a7c17eb455a5e68910549f
+    size: 1673
   ../.im.will.yml: &ref_1
     hash: 4bd2ad8e081461ac0a9600e6aa2abea9
     size: 4662
@@ -1423,8 +1423,8 @@ module:
           - 'build::npm'
     consistency:
       ../.ex.will.yml:
-        hash: 5d77a9ea8e1c8e339cb89a69ad65b1ae
-        size: 1672
+        hash: 5e4cb59d78a7c17eb455a5e68910549f
+        size: 1673
       ../.im.will.yml:
         hash: 4bd2ad8e081461ac0a9600e6aa2abea9
         size: 4662
