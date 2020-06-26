@@ -1458,6 +1458,4 @@ module:
       ../.im.will.yml:
         hash: 4bd2ad8e081461ac0a9600e6aa2abea9
         size: 4662
-      wTemplater.out.will.yml:
-        hash: dc5ecd0af28a403b1da1906764d833e0
-        size: 36791
+      wTemplater.out.will.yml: *ref_0
