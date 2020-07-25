@@ -3,5 +3,5 @@ let _ = require( 'wtemplater' );
 
 /**/
 
-___
+console.log( '___ not implemented ___' );
 
