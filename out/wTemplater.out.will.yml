@@ -6,8 +6,8 @@ consistency:
     hash: 5e4cb59d78a7c17eb455a5e68910549f
     size: 1673
   ../.im.will.yml: &ref_1
-    hash: 69f23fcf1c3b85baf42caa1f7cde13ec
-    size: 4679
+    hash: 34c0c0bc236c66404aac9ef4180addd9
+    size: 4683
 module:
   wTemplater.out:
     about:
@@ -138,7 +138,7 @@ module:
         path: '{path::out.*=}/source/Index.s'
       npm.proto.entry:
         path:
-          - ../proto/wtools/Tools.s
+          - ../proto/node_modules/Tools
           - ../proto/node_modules/wtemplater
       exported.dir.proto.export:
         criterion:
@@ -155,9 +155,9 @@ module:
           - ../proto
           - ../proto/Integration.test.ss
           - ../proto/node_modules
+          - ../proto/node_modules/Tools
           - ../proto/node_modules/wtemplater
           - ../proto/wtools
-          - ../proto/wtools/Tools.s
           - ../proto/wtools/abase
           - ../proto/wtools/amid
           - ../proto/wtools/atop
@@ -890,7 +890,7 @@ module:
         path: '{path::out.*=}/source/Index.s'
       npm.proto.entry:
         path:
-          - proto/wtools/Tools.s
+          - proto/node_modules/Tools
           - proto/node_modules/wtemplater
     submodule:
       wTools:
@@ -1438,5 +1438,5 @@ module:
         hash: 5e4cb59d78a7c17eb455a5e68910549f
         size: 1673
       ../.im.will.yml:
-        hash: 69f23fcf1c3b85baf42caa1f7cde13ec
-        size: 4679
+        hash: 34c0c0bc236c66404aac9ef4180addd9
+        size: 4683
