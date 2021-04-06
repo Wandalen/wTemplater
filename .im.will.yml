@@ -63,7 +63,7 @@ path:
       raw: compiled
       content: prime
   npm.proto.entry:
-    - proto/wtools/Tools.s
+    - proto/node_modules/Tools
     - proto/node_modules/wtemplater
 reflector:
   reflect.proto:
